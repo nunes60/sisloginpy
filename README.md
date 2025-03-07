@@ -1,38 +1,38 @@
-# 🔐 Sistema de Autenticação e Gerenciamento de Usuários
+# Sistema de Autenticação e Gerenciamento de Usuários
 
 Um sistema completo de autenticação e gerenciamento de usuários com interface de linha de comando, desenvolvido em Python puro.
 
-## 📋 Sobre o Projeto
+## Sobre o Projeto
 
 Este sistema implementa funcionalidades completas de autenticação e gerenciamento de usuários com foco em segurança e usabilidade. A interface de linha de comando é inspirada em sistemas COBOL, oferecendo uma experiência nostálgica mas funcional. O projeto foi desenvolvido em Python puro, utilizando apenas bibliotecas padrão, e armazena dados em arquivos JSON para persistência.
 
-## ✨ Recursos
+## Recursos
 
-- 🔒 **Autenticação segura**
+- **Autenticação segura**
   - Armazenamento de senhas com hash SHA-256
   - Proteção contra tentativas excessivas de login
   - Bloqueio temporário de contas
 
-- 👤 **Gerenciamento de usuários**
+- **Gerenciamento de usuários**
   - Cadastro de novos usuários
   - Login/logout
   - Recuperação de senha via código de segurança
 
-- 👮 **Painel administrativo**
+- **Painel administrativo**
   - Visualização de todos os usuários cadastrados
   - Informações detalhadas sobre cada usuário
 
-- 🛡️ **Segurança**
+- **Segurança**
   - Criptografia de senhas
   - Bloqueio temporário após múltiplas tentativas
   - Backup automático da base de dados
 
-- 🎨 **Interface amigável**
+- **Interface amigável**
   - Terminal colorido com estilo retrô
   - Menus intuitivos
   - Feedback visual para todas as ações
 
-## 🚀 Começando
+## Começando
 
 ### Pré-requisitos
 
@@ -66,9 +66,7 @@ Todas as configurações do sistema estão centralizadas no arquivo `config.py`.
 - `PASSWORD_MIN_LENGTH` - Comprimento mínimo das senhas
 - `ADMIN_USERNAME` e `ADMIN_PASSWORD` - Credenciais do administrador padrão
 
-⚠️ **IMPORTANTE**: Em ambientes de produção, altere a senha padrão do administrador!
-
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 Sistema de Login e Cadastro/
@@ -81,7 +79,7 @@ Sistema de Login e Cadastro/
 └── README.md                # Este arquivo
 ```
 
-## 📚 Bibliotecas Utilizadas
+## Bibliotecas Utilizadas
 
 Este projeto utiliza apenas as bibliotecas padrão do Python, garantindo que não há dependências externas a serem instaladas. As principais bibliotecas utilizadas são:
 
@@ -94,7 +92,7 @@ Este projeto utiliza apenas as bibliotecas padrão do Python, garantindo que nã
 - `datetime`: Para manipulação de datas e horários, como registrar a data de criação dos usuários e o último login.
 - `sys`: Para interações com o ambiente de execução do Python, como encerrar o programa.
 
-## 🔧 Como Usar
+## Como Usar
 
 ### Primeiro Acesso
 
@@ -118,7 +116,7 @@ Este projeto utiliza apenas as bibliotecas padrão do Python, garantindo que nã
 - Todas as funções de usuários comuns
 - **Listagem de usuários**: Visualize todos os usuários cadastrados com detalhes
 
-## 🔐 Segurança
+## Segurança
 
 O sistema implementa várias camadas de segurança:
 
@@ -127,7 +125,7 @@ O sistema implementa várias camadas de segurança:
 - Recuperação de senha segura através de códigos temporários
 - Backup automático do banco de dados antes de qualquer alteração
 
-## 🔄 Persistência de Dados
+## Persistência de Dados
 
 Todos os dados são armazenados em arquivos JSON no diretório `data`:
 
@@ -135,11 +133,11 @@ Todos os dados são armazenados em arquivos JSON no diretório `data`:
 - `data/login_attempts.json`: Registros de tentativas de login e bloqueios
 - `data/users_backup.json`: Backup automático da base de usuários
 
-## ✏️ Customização
+## Customização
 
 A interface de terminal utiliza cores ANSI para melhorar a legibilidade. Se estiver usando um terminal que não suporta cores ANSI, você pode desabilitar as cores editando a classe `Colors` no arquivo `login_system.py`.
 
-## ❓ Perguntas Frequentes
+## Perguntas Frequentes
 
 ### Esqueci a senha do administrador, o que fazer?
 
