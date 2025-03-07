@@ -4,7 +4,6 @@ Módulo de configuração do Sistema de Autenticação.
 Este módulo contém todas as configurações centrais usadas pelo sistema,
 incluindo configurações de arquivos, segurança e interface.
 """
-import os
 
 # Configurações de arquivos e diretórios
 DATABASE_FILE = "data/users.json"  # Arquivo principal que armazena dados dos usuários
