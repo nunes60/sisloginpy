@@ -12,7 +12,6 @@ de conta, e criptografia de senhas.
 import json
 import hashlib
 import os
-import time
 import random
 import string
 import getpass
